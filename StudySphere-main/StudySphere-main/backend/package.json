@@ -1,0 +1,19 @@
+{
+  "name": "study-sphere-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "StudySphere authentication API. Zero external dependencies — built entirely on Node.js built-ins (node:http, node:sqlite, node:crypto), so it runs with just `node server.js` and no npm install.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "mongoose": "^9.9.5",
+    "socket.io": "^4.8.3"
+  }
+}
